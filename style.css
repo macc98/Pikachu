@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+html，body {
+  height: 100%;
+  overflow: hidden;
+}
+
+pre {
+  font-size: 16px;
+  font-family: "黑体";
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper {
+  height: 50%;
+  width: 100%;
+  border: 20px solid #FCD641;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+.paperWrap {
+  height: 100%;
+  width: 400px;
+}
+
+#code {
+  overflow: hidden;
+  height: 100%;
+}
+
+.actions {
+  position: absolute;
+  width: 300px;
+  display: flex;
+  transform: translateY(-20px);
+}
+
+.actions button {
+  flex: 1;
+  margin: 10px;
+  background: yellow;
+  border-radius: 3px;
+  border: yellow;
+}
+
+button:focus {
+  outline: none;
+}
+
+.active {
+  box-shadow: 5px 5px 5px -4px rgba(50, 50, 50, 0.75);
+}
+
+.Pikachu {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
